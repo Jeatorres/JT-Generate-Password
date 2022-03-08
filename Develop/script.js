@@ -44,9 +44,17 @@
 // Assignment Code
 function generatePassword() {
   var numofchar = prompt("How many charactors would you like in your password")
- console.log(numofchar)
- var includenum = confirm("Do you want numbers in your password")
-console.log(includenum)
+  console.log(numofchar)
+  var includenum = confirm("Do you want numbers in your password?")
+  console.log(includenum)
+  var specnum = confirm("Would you like special charaters?")
+  console.log(specnum)
+  var uppercase = confirm("Would you like uppercase letter?")
+  console.log(uppercase)
+  var lowercase = confirm("Would you like lowercase letter?")
+  console.log(lowercase)
+
+  
 
 }
 
